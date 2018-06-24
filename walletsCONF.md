@@ -559,6 +559,18 @@ port=13333
 rpcport=13332
 ```
 
+```UFO```
+__UniformFiscalObject.conf__ `v0.16.1`
+```
+server=1 
+listen=1 
+rpcuser=
+rpcpassword=
+rpcallowip=127.0.0.1
+rpcport=9887
+port=9888
+```
+
 ```UNB```
 __unbreakablecoin.conf__ `v0.10.3.0`
 ```
