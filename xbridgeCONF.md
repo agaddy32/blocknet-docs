@@ -985,8 +985,8 @@ DustAmount=0
 CreateTxMethod=BTC
 MinTxFee=0
 BlockTime=90
-GetNewKeySupported=false //what are these
-ImportWithNoScanSupported=false// ^^^
+GetNewKeySupported=true
+ImportWithNoScanSupported=true
 FeePerByte=200
 Confirmations=0
 
