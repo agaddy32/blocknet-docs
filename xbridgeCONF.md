@@ -17,7 +17,7 @@
 
 ```
 [Main]
-ExchangeWallets=ALQO,BITG,BLOCK,BTC,BWK,COLX,CRAVE,CRC,CRW,DASH,DGB,DMD,DOGE,DYN,EMC2,FAIR,FLO,GBX,HTML,HXX,INN,IOP,KLKS,LBC,LTC,LYNX,MNX,MONA,MUE,NMC,ORE,PHR,PIVX,PURA,QBIC,QTUM,RVN,SEND,SPK,SUCR,SYS,TRB,TRC,UNB,UNO,VIA,VITAE,VIVO,VSX,VTC,WGR,XC,XMY,XSN,XZC,ZOI
+ExchangeWallets=ALQO,BITG,BLOCK,BTC,BWK,COLX,CRAVE,CRC,CRW,DASH,DGB,DMD,DOGE,DYN,EMC2,FAIR,FLO,GBX,HTML,HXX,INN,IOP,KLKS,LBC,LTC,LYNX,MNX,MONA,MUE,NMC,ORE,PHR,PIVX,PURA,QBIC,QTUM,RVN,SEND,SPK,SUCR,SYS,TRB,TRC,UFO,UNB,UNO,VIA,VITAE,VIVO,VSX,VTC,WGR,XC,XMY,XSN,XZC,ZOI
 FullLog=true
 LogPath=
 ExchangeTax=300
@@ -966,6 +966,28 @@ ImportWithNoScanSupported=true
 MinTxFee=0
 BlockTime=120
 FeePerByte=45
+Confirmations=0
+
+[UFO]
+Title=Uniform Fiscal Object
+Address=
+Ip=127.0.0.1
+Port=9888
+Username=
+Password=
+AddressPrefix=27 
+ScriptPrefix=68
+SecretPrefix=155
+COIN=100000000
+MinimumAmount=0
+TxVersion=2
+DustAmount=0
+CreateTxMethod=BTC
+MinTxFee=0
+BlockTime=90
+GetNewKeySupported=false //what are these
+ImportWithNoScanSupported=false// ^^^
+FeePerByte=200
 Confirmations=0
 
 [UNB]
